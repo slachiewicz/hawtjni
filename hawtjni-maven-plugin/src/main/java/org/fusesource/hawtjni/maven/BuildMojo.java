@@ -238,7 +238,7 @@ public class BuildMojo extends AbstractMojo {
         Library library = new Library(name);
         String libPlatform = this.platform != null ? this.platform : Library.getPlatform();
         String platform;
-        String configuration="release";
+        String configuration="Release";
         if( "windows32".equals(libPlatform) ) {
         	platform = "Win32";
         } else if( "windows64".equals(libPlatform) ) {

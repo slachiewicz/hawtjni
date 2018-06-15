@@ -11,6 +11,7 @@
 /* == HEADER-SNIP-LOCATION == */ 
 #include "hawtjni.h"
 #include <stdlib.h>
+#include "stdafx.h"
 #include <string.h>
 
 /* define this to print out debug statements */

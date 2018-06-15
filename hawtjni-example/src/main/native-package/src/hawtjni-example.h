@@ -32,6 +32,7 @@
   #include <stdlib.h>
 #endif
 
+#include "stdafx.h"
 #ifdef HAVE_STRINGS_H
   #include <string.h>
 #endif
