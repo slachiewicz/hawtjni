@@ -258,7 +258,9 @@ public class BuildMojo extends AbstractMojo {
                 if( vcinstalldir!=null ) {
                     if( vcinstalldir.contains("Microsoft Visual Studio 10") ||
                         vcinstalldir.contains("Microsoft Visual Studio 11") ||
-                        vcinstalldir.contains("Microsoft Visual Studio 12")
+                        vcinstalldir.contains("Microsoft Visual Studio 12") ||
+                        vcinstalldir.contains("Microsoft Visual Studio 15") ||
+                        vcinstalldir.contains("Microsoft Visual Studio 17")
                       ) {
                         useMSBuild = true;
                     }

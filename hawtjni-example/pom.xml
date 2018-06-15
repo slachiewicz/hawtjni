@@ -63,6 +63,9 @@
         <groupId>org.fusesource.hawtjni</groupId>
         <artifactId>hawtjni-maven-plugin</artifactId>
         <version>${project.version}</version>
+        <configuration>
+          <verbose>true</verbose>
+        </configuration>
         <executions>
           <execution>
             <goals>
